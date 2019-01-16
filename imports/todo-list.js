@@ -1,6 +1,6 @@
 import { Template } from 'meteor/templating';
- 
-import './body.html';
+
+import './todo-list.html';
  
 Template.body.helpers({
   tasks: [
