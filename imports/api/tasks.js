@@ -3,7 +3,8 @@ import { Template } from 'meteor/templating';
 import { Tasks } from '../api/tasks.js';
  
 import './task.html';
- 
+import './body.html';
+
 Template.task.events({
   'click .toggle-checked'() {
     // Set the checked property to the opposite of its current value
